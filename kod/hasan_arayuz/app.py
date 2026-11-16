@@ -676,8 +676,8 @@ with sekme3:
             hovertemplate="%{y}<br>önem payı %{x:.1f}%<extra></extra>"))
         onm.add_trace(go.Bar(x=[None], y=[None], name="Sismik girdi", marker_color="#B4B2A9"))
         onm.add_trace(go.Bar(x=[None], y=[None], name="Dış faktör (Ay, gelgit ve hava)", marker_color=ANA_RENK))
-        onm.update_layout(height=400, margin=dict(l=10, r=10, t=10, b=10), showlegend=True,
-                          legend=dict(orientation="h", y=1.1, x=0), separators=",.",
+        onm.update_layout(height=400, margin=dict(l=10, r=10, t=40, b=10), showlegend=True,
+                          legend=dict(orientation="h", y=1.18, x=0), separators=",.",
                           xaxis=dict(title="Önem payı (%)", gridcolor="#3A4552", linecolor=CIZGI),
                           yaxis=dict(tickfont=dict(size=11), showgrid=False, linecolor=CIZGI),
                           plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",

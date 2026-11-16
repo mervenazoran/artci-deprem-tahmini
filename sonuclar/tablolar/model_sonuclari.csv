@@ -1,0 +1,10 @@
+﻿yaklasim,model,MAE,MAE_std,RMSE,RMSE_std,R2,R2_std,taban_gore_MAE_iyilesme_%
+A (sismik),Önceki artçı ortalaması,0.3036,0.0023,0.4009,0.0034,-0.126,0.0244,0.0
+A (sismik),Doğrusal regresyon,0.2742,0.0023,0.3675,0.0014,0.054,0.0092,9.7
+A (sismik),Random Forest,0.2679,0.0022,0.3582,0.0017,0.101,0.0099,11.8
+A (sismik),XGBoost,0.2659,0.0018,0.3563,0.0016,0.1105,0.0114,12.4
+A (sismik),LightGBM,0.2658,0.0014,0.3557,0.0016,0.1138,0.0114,12.5
+B (sismik + dış faktör),Doğrusal regresyon,0.2742,0.0024,0.3675,0.0013,0.0538,0.0097,9.7
+B (sismik + dış faktör),Random Forest,0.268,0.0022,0.3582,0.0016,0.1014,0.0104,11.7
+B (sismik + dış faktör),XGBoost,0.2661,0.0019,0.3566,0.0016,0.1095,0.0116,12.4
+B (sismik + dış faktör),LightGBM,0.2661,0.002,0.3561,0.0016,0.1116,0.0119,12.4

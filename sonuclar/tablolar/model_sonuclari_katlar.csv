@@ -1,0 +1,46 @@
+﻿yaklasim,model,kat,MAE,RMSE,R2
+A (sismik),Önceki artçı ortalaması,1,0.3059,0.4019,-0.1034
+A (sismik),Önceki artçı ortalaması,2,0.3016,0.4027,-0.1563
+A (sismik),Önceki artçı ortalaması,3,0.301,0.3948,-0.0986
+A (sismik),Önceki artçı ortalaması,4,0.3057,0.4023,-0.1377
+A (sismik),Önceki artçı ortalaması,5,0.3039,0.4028,-0.1337
+A (sismik),Doğrusal regresyon,1,0.2748,0.3701,0.0646
+A (sismik),Doğrusal regresyon,2,0.2753,0.3669,0.0401
+A (sismik),Doğrusal regresyon,3,0.2756,0.3667,0.0527
+A (sismik),Doğrusal regresyon,4,0.2748,0.367,0.0533
+A (sismik),Doğrusal regresyon,5,0.2702,0.3669,0.0593
+A (sismik),Random Forest,1,0.2689,0.3608,0.1107
+A (sismik),Random Forest,2,0.2676,0.3575,0.0884
+A (sismik),Random Forest,3,0.271,0.3588,0.0927
+A (sismik),Random Forest,4,0.2666,0.3561,0.1086
+A (sismik),Random Forest,5,0.2655,0.3579,0.1047
+A (sismik),XGBoost,1,0.2655,0.3588,0.1206
+A (sismik),XGBoost,2,0.2666,0.3566,0.0929
+A (sismik),XGBoost,3,0.2685,0.3563,0.1052
+A (sismik),XGBoost,4,0.2654,0.3545,0.1166
+A (sismik),XGBoost,5,0.2635,0.3554,0.1172
+A (sismik),LightGBM,1,0.2658,0.3579,0.125
+A (sismik),LightGBM,2,0.2661,0.3558,0.097
+A (sismik),LightGBM,3,0.2679,0.3557,0.1084
+A (sismik),LightGBM,4,0.2653,0.3534,0.1224
+A (sismik),LightGBM,5,0.2641,0.3556,0.1165
+B (sismik + dış faktör),Doğrusal regresyon,1,0.2748,0.3699,0.0656
+B (sismik + dış faktör),Doğrusal regresyon,2,0.2756,0.367,0.0395
+B (sismik + dış faktör),Doğrusal regresyon,3,0.2759,0.3669,0.0516
+B (sismik + dış faktör),Doğrusal regresyon,4,0.2748,0.3669,0.0537
+B (sismik + dış faktör),Doğrusal regresyon,5,0.2701,0.367,0.0589
+B (sismik + dış faktör),Random Forest,1,0.2681,0.3602,0.1139
+B (sismik + dış faktör),Random Forest,2,0.2679,0.3573,0.0895
+B (sismik + dış faktör),Random Forest,3,0.2715,0.3588,0.0928
+B (sismik + dış faktör),Random Forest,4,0.2667,0.356,0.109
+B (sismik + dış faktör),Random Forest,5,0.2658,0.3585,0.1018
+B (sismik + dış faktör),XGBoost,1,0.2661,0.3589,0.1201
+B (sismik + dış faktör),XGBoost,2,0.2666,0.3568,0.092
+B (sismik + dış faktör),XGBoost,3,0.2686,0.3567,0.1034
+B (sismik + dış faktör),XGBoost,4,0.2658,0.3547,0.1155
+B (sismik + dış faktör),XGBoost,5,0.2632,0.3556,0.1161
+B (sismik + dış faktör),LightGBM,1,0.2662,0.3582,0.1237
+B (sismik + dış faktör),LightGBM,2,0.2667,0.3561,0.0955
+B (sismik + dış faktör),LightGBM,3,0.2688,0.3568,0.103
+B (sismik + dış faktör),LightGBM,4,0.2655,0.3538,0.1204
+B (sismik + dış faktör),LightGBM,5,0.2632,0.3558,0.1153

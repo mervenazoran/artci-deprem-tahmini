@@ -1,0 +1,306 @@
+{
+ "A (sismik)": {
+  "LightGBM": {
+   "katlar": [
+    {
+     "n_estimators": 900,
+     "learning_rate": 0.019597114410368467,
+     "num_leaves": 8,
+     "min_child_samples": 60,
+     "subsample": 0.5234183085320091,
+     "colsample_bytree": 0.5971742289697104,
+     "reg_lambda": 0.007405287471068105
+    },
+    {
+     "n_estimators": 1300,
+     "learning_rate": 0.020427833896038007,
+     "num_leaves": 8,
+     "min_child_samples": 57,
+     "subsample": 0.8268628425658977,
+     "colsample_bytree": 0.7998570809889103,
+     "reg_lambda": 0.0032745664516431235
+    },
+    {
+     "n_estimators": 1400,
+     "learning_rate": 0.012558024499626659,
+     "num_leaves": 9,
+     "min_child_samples": 82,
+     "subsample": 0.5029673320089257,
+     "colsample_bytree": 0.7137437812505047,
+     "reg_lambda": 0.00711072097781934
+    },
+    {
+     "n_estimators": 1000,
+     "learning_rate": 0.013548418273357279,
+     "num_leaves": 9,
+     "min_child_samples": 74,
+     "subsample": 0.5902072861108982,
+     "colsample_bytree": 0.9194272418986706,
+     "reg_lambda": 1.5911405764511402
+    },
+    {
+     "n_estimators": 300,
+     "learning_rate": 0.023993242906812727,
+     "num_leaves": 21,
+     "min_child_samples": 38,
+     "subsample": 0.8925879806965068,
+     "colsample_bytree": 0.5998368910791798,
+     "reg_lambda": 0.11400863701127326
+    }
+   ],
+   "son": {
+    "n_estimators": 700,
+    "learning_rate": 0.022009426004045225,
+    "num_leaves": 11,
+    "min_child_samples": 89,
+    "subsample": 0.5518638632727149,
+    "colsample_bytree": 0.6021236231886857,
+    "reg_lambda": 0.01604823647049734
+   }
+  },
+  "XGBoost": {
+   "katlar": [
+    {
+     "n_estimators": 1200,
+     "learning_rate": 0.020599880666315382,
+     "max_depth": 3,
+     "min_child_weight": 36.18050808279938,
+     "subsample": 0.8434653078864806,
+     "colsample_bytree": 0.5522984327189874,
+     "reg_lambda": 0.0021828765907074
+    },
+    {
+     "n_estimators": 800,
+     "learning_rate": 0.017936072625455903,
+     "max_depth": 4,
+     "min_child_weight": 33.63107540698929,
+     "subsample": 0.8538560118635851,
+     "colsample_bytree": 0.8935392446494186,
+     "reg_lambda": 0.008444561240504215
+    },
+    {
+     "n_estimators": 800,
+     "learning_rate": 0.014757582693043475,
+     "max_depth": 4,
+     "min_child_weight": 15.407674946107015,
+     "subsample": 0.7841855833257487,
+     "colsample_bytree": 0.9478309098040862,
+     "reg_lambda": 0.03836787561174209
+    },
+    {
+     "n_estimators": 900,
+     "learning_rate": 0.02108068073497901,
+     "max_depth": 3,
+     "min_child_weight": 11.379240873664914,
+     "subsample": 0.5186555504454031,
+     "colsample_bytree": 0.6793738340626112,
+     "reg_lambda": 0.0037427187633473154
+    },
+    {
+     "n_estimators": 900,
+     "learning_rate": 0.012932909900576238,
+     "max_depth": 4,
+     "min_child_weight": 19.465169004092854,
+     "subsample": 0.7577518964546621,
+     "colsample_bytree": 0.7585063046079625,
+     "reg_lambda": 2.5862214367185197
+    }
+   ],
+   "son": {
+    "n_estimators": 700,
+    "learning_rate": 0.017768320249074075,
+    "max_depth": 4,
+    "min_child_weight": 29.529541605343105,
+    "subsample": 0.8407434980706122,
+    "colsample_bytree": 0.8897141011558394,
+    "reg_lambda": 0.006389317704841263
+   }
+  },
+  "Random Forest": {
+   "katlar": [
+    {
+     "min_samples_leaf": 50,
+     "max_features": 0.7650749050993699,
+     "max_depth": 21
+    },
+    {
+     "min_samples_leaf": 27,
+     "max_features": 0.8078887983207732,
+     "max_depth": 13
+    },
+    {
+     "min_samples_leaf": 28,
+     "max_features": 0.7214932406225432,
+     "max_depth": 10
+    },
+    {
+     "min_samples_leaf": 25,
+     "max_features": 0.7519123386797537,
+     "max_depth": 8
+    },
+    {
+     "min_samples_leaf": 28,
+     "max_features": 0.7214932406225432,
+     "max_depth": 10
+    }
+   ],
+   "son": {
+    "min_samples_leaf": 23,
+    "max_features": 0.5558669530275528,
+    "max_depth": 14
+   }
+  }
+ },
+ "B (sismik + dış faktör)": {
+  "LightGBM": {
+   "katlar": [
+    {
+     "n_estimators": 1100,
+     "learning_rate": 0.013369670301582636,
+     "num_leaves": 8,
+     "min_child_samples": 46,
+     "subsample": 0.7614181163298525,
+     "colsample_bytree": 0.5450797994077736,
+     "reg_lambda": 0.0047230757994047795
+    },
+    {
+     "n_estimators": 1000,
+     "learning_rate": 0.011342020715931668,
+     "num_leaves": 14,
+     "min_child_samples": 64,
+     "subsample": 0.6332598622859019,
+     "colsample_bytree": 0.8180144126112177,
+     "reg_lambda": 0.026497208508898303
+    },
+    {
+     "n_estimators": 1500,
+     "learning_rate": 0.011006532629166345,
+     "num_leaves": 10,
+     "min_child_samples": 66,
+     "subsample": 0.7422263297047265,
+     "colsample_bytree": 0.9494572190628112,
+     "reg_lambda": 0.010058611793852056
+    },
+    {
+     "n_estimators": 1000,
+     "learning_rate": 0.013162781849049583,
+     "num_leaves": 11,
+     "min_child_samples": 56,
+     "subsample": 0.545690774732721,
+     "colsample_bytree": 0.6766998795538247,
+     "reg_lambda": 3.1582908234064093
+    },
+    {
+     "n_estimators": 1500,
+     "learning_rate": 0.014694626290696629,
+     "num_leaves": 8,
+     "min_child_samples": 131,
+     "subsample": 0.6553447098489983,
+     "colsample_bytree": 0.7234076580170778,
+     "reg_lambda": 0.0348576232845142
+    }
+   ],
+   "son": {
+    "n_estimators": 500,
+    "learning_rate": 0.02208979232048241,
+    "num_leaves": 18,
+    "min_child_samples": 32,
+    "subsample": 0.8612286250931735,
+    "colsample_bytree": 0.8168923097265621,
+    "reg_lambda": 0.0051292786142209225
+   }
+  },
+  "XGBoost": {
+   "katlar": [
+    {
+     "n_estimators": 1400,
+     "learning_rate": 0.013056130409921431,
+     "max_depth": 3,
+     "min_child_weight": 23.14616935024686,
+     "subsample": 0.8590209839631676,
+     "colsample_bytree": 0.8316538322481923,
+     "reg_lambda": 0.9141095450134852
+    },
+    {
+     "n_estimators": 1200,
+     "learning_rate": 0.02025175247092561,
+     "max_depth": 3,
+     "min_child_weight": 38.136994961821,
+     "subsample": 0.8434653078864806,
+     "colsample_bytree": 0.5935345499072922,
+     "reg_lambda": 0.0021828765907074
+    },
+    {
+     "n_estimators": 1500,
+     "learning_rate": 0.016433926764461593,
+     "max_depth": 3,
+     "min_child_weight": 41.17564957093279,
+     "subsample": 0.5209973242926537,
+     "colsample_bytree": 0.8591790821052256,
+     "reg_lambda": 0.8603169082146008
+    },
+    {
+     "n_estimators": 1000,
+     "learning_rate": 0.010716513795638935,
+     "max_depth": 4,
+     "min_child_weight": 48.74149468254275,
+     "subsample": 0.8746391857955249,
+     "colsample_bytree": 0.7037084302594204,
+     "reg_lambda": 0.0020318926746255004
+    },
+    {
+     "n_estimators": 1100,
+     "learning_rate": 0.010004576204488616,
+     "max_depth": 4,
+     "min_child_weight": 29.941560501671397,
+     "subsample": 0.7806276865063986,
+     "colsample_bytree": 0.8501439166248974,
+     "reg_lambda": 0.6750754292582203
+    }
+   ],
+   "son": {
+    "n_estimators": 1100,
+    "learning_rate": 0.010533769324068595,
+    "max_depth": 5,
+    "min_child_weight": 46.5436583651019,
+    "subsample": 0.6172309516033425,
+    "colsample_bytree": 0.6471377741849623,
+    "reg_lambda": 0.005488912409267491
+   }
+  },
+  "Random Forest": {
+   "katlar": [
+    {
+     "min_samples_leaf": 22,
+     "max_features": 0.6100306124046044,
+     "max_depth": 10
+    },
+    {
+     "min_samples_leaf": 16,
+     "max_features": 0.5810294365880773,
+     "max_depth": 12
+    },
+    {
+     "min_samples_leaf": 20,
+     "max_features": 0.5649855891332627,
+     "max_depth": 11
+    },
+    {
+     "min_samples_leaf": 8,
+     "max_features": 0.5560310820898721,
+     "max_depth": 9
+    },
+    {
+     "min_samples_leaf": 28,
+     "max_features": 0.7214932406225432,
+     "max_depth": 10
+    }
+   ],
+   "son": {
+    "min_samples_leaf": 27,
+    "max_features": 0.8078887983207732,
+    "max_depth": 13
+   }
+  }
+ }
+}

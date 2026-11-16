@@ -1,0 +1,18 @@
+﻿sira,girdi,aciklama,grup,MAE_artisi,MAE_artisi_std,onem_%
+1,onceki_ort,Önceki artçıların ortalaması,Sismik,0.01369,0.00161,35.3
+2,artci_derinlik,Artçı derinliği (km),Sismik,0.00691,0.00082,17.8
+3,ana_buyukluk,Ana deprem büyüklüğü,Sismik,0.00506,0.00133,13.1
+4,zaman_farki_saat,Ana şoktan geçen süre (saat),Sismik,0.00353,0.00045,9.1
+5,onceki_artcidan_saat,Önceki artçıdan geçen süre,Sismik,0.00227,0.00037,5.9
+6,ana_enlem,Ana deprem enlemi,Sismik,0.00201,0.00056,5.2
+7,onceki_sayi,Önceki artçı sayısı,Sismik,0.0019,0.00063,4.9
+8,uzaklik_km,Ana şoka uzaklık (km),Sismik,0.00117,0.00067,3.0
+9,ana_boylam,Ana deprem boylamı,Sismik,0.00108,0.00037,2.8
+10,ana_derinlik,Ana deprem derinliği (km),Sismik,0.00061,0.00041,1.6
+11,sicaklik,Sıcaklık (°C),Dış faktör,0.00019,0.00023,0.5
+12,ay_uzaklik_km,Ay'ın Dünya'ya uzaklığı (km),Dış faktör,0.00013,6e-05,0.3
+13,onceki_max,Önceki en büyük artçı,Sismik,0.0001,0.00043,0.3
+14,gelgit_ugal,Gelgit kuvveti (µGal),Dış faktör,9e-05,0.0001,0.2
+15,ay_evresi,"Ay evresi (0 = yeni ay, 0,5 = dolunay)",Dış faktör,1e-05,6e-05,0.0
+16,basinc,Deniz seviyesi basıncı (hPa),Dış faktör,0.0,0.0001,0.0
+17,yagis,Yağış (mm),Dış faktör,-4e-05,5e-05,0.0
